@@ -1,0 +1,25 @@
+{
+    "tests": [
+        {
+            "name": "latihan1",
+            "setup": "javac latihan1.java",
+            "run": "java latihan1",
+            "input": "5\n5\n",
+            "output": "Total Gaji Anda Adalah : 75000000250000",
+            "comparison": "included",
+            "timeout": 10,
+            "points": 50
+        },
+        
+        {
+            "name": "latihan2",
+            "setup": "javac latihan2.java",
+            "run": "java latihan2",
+            "input": "5\nY\n6\nY\n9\nY\n20\nT\n",
+            "output": "Nilai minimal: 5\nNilai maksimal: 20\nNilai rata-rata: 10.0",
+            "comparison": "included",
+            "timeout": 10,
+            "points": 50
+        }
+    ]
+}
